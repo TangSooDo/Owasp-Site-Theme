@@ -1,0 +1,14 @@
+.ch-banner {
+    width:100%;
+    overflow:hidden;
+    max-height: 250px;
+}
+
+.ch-description {
+
+}
+
+.ch-logo {
+    float:left;
+    display:inline-block;
+}
