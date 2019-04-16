@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "owasp-site"
+  spec.name          = "Owasp-Site-Theme"
   spec.version       = "0.1.0"
   spec.authors       = ["Harold Blankenship"]
   spec.email         = ["harold.blankenship@owasp.com"]
