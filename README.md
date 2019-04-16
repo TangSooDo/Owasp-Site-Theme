@@ -1,4 +1,4 @@
-# owasp-site
+# Owasp-Site-Theme
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
 
@@ -12,13 +12,13 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "owasp-site"
+gem "Owasp-Site-Theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: owasp-site
+theme: Owasp-Site-Theme
 ```
 
 And then execute:
@@ -27,7 +27,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install owasp-site
+    $ gem install Owasp-Site-Theme
 
 ## Usage
 
