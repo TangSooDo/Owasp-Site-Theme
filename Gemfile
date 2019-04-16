@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 gemspec
-gem "owasp-site"
+gem "Owasp-Site-Theme"
