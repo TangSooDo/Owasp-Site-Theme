@@ -1,0 +1,19 @@
+{% include precontent.html %}
+<link rel="stylesheet" href="css/chapter.css">
+{% if 'media/chapter_banner.png' in site.static_files %}
+<div class="ch-banner">
+    <img src="media/chapter_banner.png"/>
+</div>
+{% elsif 'media/chapter_logo.png' in site.static_files %}
+<div class="ch-logo">
+    <img class="logo" src="media/chapter_logo.png"/>
+</div>
+{% endif %}
+{% assign chapter = site.data.chapterinfo[0] %}
+<div class="ch-description">
+    {{ chapter.description }}
+</div>
+    <main class="Site-content">
+    {{ content }}
+    </main>
+{% include postcontent.html %}
